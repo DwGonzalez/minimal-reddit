@@ -6,7 +6,7 @@
 }
 
 header {
-  background-image: linear-gradient(to right, #ff5700, #ff8b60);
+  background-image: linear-gradient(to right, #336699, #cee3f8);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
   padding: 15px;
 }
@@ -35,7 +35,7 @@ header::before {
 
 .post_list article {
   padding: 30px 15px;
-  background-color: white;
+  background-color: rgb(73, 73, 73);
 }
 
 .post_list article a {
@@ -43,13 +43,21 @@ header::before {
 }
 
 .post_list article h3 {
-  color: #212121;
+  color: ghostwhite;
+}
+
+.post_list article h5 {
+  color: #9494ff;
+}
+
+.post_list article h6 {
+  color: #ff8b60;
 }
 
 .post_list article:nth-child(2n) {
-  background-color: #f3f3f3;
+  background-color: #3d3d3d;
 }
 
 .post_list article:hover {
-  background-image: linear-gradient(to left, #ff5700, #ff8b60);
+  background-image: linear-gradient(to left, #336699, #cee3f8);
 }
