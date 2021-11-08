@@ -1,6 +1,6 @@
 # Minimal Reddit
 
-## App created to get top posts on Reddit.
+### App created to get top posts on Reddit.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
