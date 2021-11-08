@@ -25,7 +25,7 @@ function App() {
       <header className="App-header">
         <input type="text" className="input" value="pcmasterrace" />
       </header>
-      <div className="posts">
+      <div className="post_list">
         {
           (posts != null) ? posts.map((post, index) => <Post key={index} post={post.data} />) : ''
         }
